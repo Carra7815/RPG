@@ -4,9 +4,13 @@ namespace RPG
 {
     public class Program
     {
-        public static void Main(string[] h) 
+        public static void print(string param)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine(param);
+        }
+        public static void Main(string[] program) 
+        {
+            print("Hello World");
         }
     }
 }
