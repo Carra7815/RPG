@@ -8,9 +8,5 @@ namespace RPG
         {
             Console.WriteLine(param);
         }
-        public static void Main(string[] program) 
-        {
-            print("Hello World");
-        }
     }
 }
